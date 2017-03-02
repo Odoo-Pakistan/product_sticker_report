@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <template id="sticker">
+            <t t-call="report.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <div class="page text-center">
+                        <strong><p t-field="o.default_code"/></strong>
+                        <p t-field="o.name"/>
+                        <img t-attf-src="'/report/barcode/?type=EAN13&amp;value={{o.ean13}}&amp;width=200&amp;height=80"/>
+                        <p t-field="o.ean13"/>
+                    </div>
+                </t>
+            </t>
+        </template>
+    </data>
+</openerp>

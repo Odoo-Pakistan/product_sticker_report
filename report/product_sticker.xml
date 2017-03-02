@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <report id="product_sticker"
+            model="product.product"
+            string="Product Sticker"
+            report_type="qweb-pdf"
+            name="product_sticker_report.sticker"
+            attachment_use="False"/>
+    </data>
+</openerp>
