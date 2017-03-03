@@ -7,5 +7,9 @@
             report_type="qweb-pdf"
             name="product_sticker_report.sticker"
             attachment_use="False"/>
+
+            <record id="product_sticker_report.product_sticker" model="ir.actions.report.xml">
+                <field name="paperformat_id" ref="product_sticker_report.paperformat_product_sticker"/>
+            </record>
     </data>
 </openerp>

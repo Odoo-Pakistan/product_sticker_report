@@ -22,7 +22,7 @@
 Product Sticker Report
 ======================
 * Creates a QWeb report containing the name, code and EAN13 of a product
-* Uses a custom paper format
+* Uses a custom 76x51mm paper format suitable for a sticker printer
 
 """,
     'data': [
